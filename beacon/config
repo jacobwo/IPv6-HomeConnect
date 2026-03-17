@@ -1,0 +1,12 @@
+Host sshlog
+     HostName your_domain.ddns.net 
+     User sshlog
+     Port 56100
+     Protocol 2 
+     StrictHostKeyChecking accept-new
+     ConnectTimeout 15
+     BatchMode yes
+     ForwardX11 no
+     ForwardX11Trusted yes
+     RequestTTY force
+     IdentityFile ~/.ssh/sshlog
